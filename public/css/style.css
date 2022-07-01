@@ -1,4 +1,4 @@
-body {
+body{
     color: #333333;
     font-family: arial;
     max-width: 60vw;
@@ -46,7 +46,7 @@ button{
     padding: 8px;
 
 }
-input{
+input{ 
     border: 1px solid #cccccc;
     padding: 8px;
 }
