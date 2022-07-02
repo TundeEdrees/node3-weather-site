@@ -21,7 +21,7 @@ const forecast = (lat,long,callback) => {
         } else if(body.error) {
             callback('Unable to get a location',undefined)
         } else {
-            callback(undefined,body.current.weather_descriptions+'. It is currrently '+body.current.temperature+' degrees out. It feels like '+body.current.feelslike+' degrees out.')
+            callback(undefined,body.current.weather_descriptions+'. It is currrently '+body.current.temperature+' degrees out. It feels like '+body.current.feelslike+' degrees out. The humidity at the time is '+body.current.humidity+'.')
         }
     })
 }
