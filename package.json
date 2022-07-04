@@ -1,10 +1,10 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev" : "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,16 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1",
+    "nodemon": "^2.0.18",
     "request": "^2.88.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TundeEdrees/node3-weather-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TundeEdrees/node3-weather-site/issues"
+  },
+  "homepage": "https://github.com/TundeEdrees/node3-weather-site#readme",
+  "description": ""
 }
